@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: --font-Love;
+  src: url(./assets/LoveSummer.otf);
+  font-family: --text-text;
+  src: url(./assets/ShadowsIntoLight-Regular.ttf);
+}
