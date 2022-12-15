@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: --font-Love;
-  src: url(./assets/LoveSummer.otf);
-  font-family: --text-text;
-  src: url(./assets/ShadowsIntoLight-Regular.ttf);
+
+body::-webkit-scrollbar, #descripScroll::-webkit-scrollbar{
+  width: 8px;
+}
+body::-webkit-scrollbar-track , #descripScroll::-webkit-scrollbar-track{
+  background-color:  #1C1B20;
+}
+body::-webkit-scrollbar-thumb, #descripScroll::-webkit-scrollbar-thumb{
+  background-color: #ffc0cd;
+  border-radius: 10px;
 }

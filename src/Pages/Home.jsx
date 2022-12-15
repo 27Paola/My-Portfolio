@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Compenents/Navbar'
-import Squirrel from '../assets/My project-1 (7).png'
+import nutone from '../assets/nutone.png'
 import { NavLink } from 'react-router-dom'
     
 
@@ -11,13 +11,13 @@ const Home = () => {
 
     <section>
         <div>
-            <h2 className='font-Love text-center text-black'>¡BIENVENIDOS!</h2>
+            <h2 className='font-Passions text-center decoration-8 text-9xl text-black'>¡Bienvenidos!</h2>
         </div>
         <div>
-        <img className='imgone z-30 hidden lg:block lg:w-9/12 items-center' src={Squirrel} alt="" />
+        <img className='nutone z-30 hidden lg:block lg:w-9/12 items-center scale-50' src={nutone} alt=""/>
         </div>
         <div>
-            <h3 className='font-love text-center text-black'> A mi Portafolio</h3>
+            <h3 className='font-Passions text-center text-8xl text-black'>¡A mi Portafolio!</h3>
         </div>
         <div>
         <NavLink to={'Projects'}><button className='Ver Mas'></button></NavLink>

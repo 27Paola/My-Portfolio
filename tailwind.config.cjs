@@ -3,8 +3,8 @@ module.exports = {
   content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     fontFamily: {
-      Love:['"Love Summer","cursive"'],
-      Shadows:['"Shadows Into Light","sans-serif"']
+      'Passions':['Passions Conflict','sans-serif'],
+      'Shadows':['Shadows Into Light','sans-serif']
     },
     extend: {},
   },
