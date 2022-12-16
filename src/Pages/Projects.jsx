@@ -3,7 +3,11 @@ import Navbar from '../Compenents/Navbar'
 
 const Projects = () => {
   return (
+    <>
+    <Navbar/>
+
     <div>Projects</div>
+    </>
   )
 }
 

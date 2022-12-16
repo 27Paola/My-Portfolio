@@ -20,7 +20,7 @@ const Navbar = () => {
     <div>
         {menu && (
 
-        <div className="fixed bottom-1 left-5 bg-black h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
+        <div className="fixed bottom-1 left-5 bg-purple-400 h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
             
             <Link to="/" className="center flex-col">
             <FiHome className="text-5xl content-center w-10 " />
