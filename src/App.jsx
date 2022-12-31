@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 import Home from './Pages/Home'
 import Abount from './Pages/Abount'
 import Skills from './Pages/Skills'
@@ -17,8 +16,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/Abount' element={<Abount/>} />
-          <Route path='/Skills' element={<Skills/>}/>
           <Route path='/Projects' element={<Projects/>}/>
+          <Route path='/Skills' element={<Skills/>}/>
           </Routes>
       </BrowserRouter>
       
