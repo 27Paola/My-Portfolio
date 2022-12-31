@@ -20,26 +20,26 @@ const Navbar = () => {
     <div>
         {menu && (
 
-        <div className="fixed bottom-1 left-5 bg-purple-400 h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
+        <div className="fixed bottom-1 left-5 bg-purple-400 h-fit pb-20 px-7 py-7 rounded-md flex flex-col items-center justify-center gap-5 z-20 w-10">
             
             <Link to="/" className="center flex-col">
             <FiHome className="text-5xl content-center w-10 " />
-            <span className="text-sm font-Love text-center text-violet-600">Home</span>
+            <span className="text-lg font-Shadows text-center text-violet-600">Home</span>
             </Link>
 
             <Link to="/Abount" className="center flex-col">
             <FiSmile className="text-5xl content-center w-10" />
-            <span className="text-sm font-Love text-violet-600">About</span>
+            <span className="text-lg font-Shadows text-violet-600">About</span>
             </Link>
 
             <Link to="/Projects" className="Center flex-col">
-                <FiTool className="text-5xl" />
-                <span className="text-5xl">Projects</span>
+                <FiTool className="text-5xl content-center w-10" />
+                <span className="text-lg font-Shadows text-violet-600">Projects</span>
             </Link>
 
             <Link to="/Skills" className="center flex-col">
-                <FiAward className="text-5xl" />
-                <span className="text-5xl">Skills</span>
+                <FiAward className="text-5xl content-center w-10" />
+                <span className="text-lg font-Shadows text-violet-600">Skills</span>
             </Link>
 
             </div>
