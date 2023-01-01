@@ -10,11 +10,14 @@ const Home = () => {
     <>
       <Navbar />
       <div className='container '>
+
+      
         <div className='flex flex-row justify-between items-center h-20 sm:h-24 md:h-28 lg:h-20'>
           <button class="bg-indigo-500 opacity-75 ..."></button>
           <img className='scale-50 h-12 sm:h-14 md:h-16 lg:h-20' src='/src/assets/Logos_PS (3).png' />
         </div>
-        <div className=' bg-[#ffa5cf] w-2/3 h-auto items-center m-auto rounded-3xl'>
+
+        <div className='bg-[#ffa5cf] w-2/3 h-auto items-center m-auto rounded-3xl'>
           <div>
             <h2 className='text-center font-Passions text-6xl text-black sm:text-8xl md:text-8xl lg:text-8xl '>¡Bienvenidos!</h2>
           </div>
