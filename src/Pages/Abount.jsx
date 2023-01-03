@@ -14,18 +14,19 @@ const Abount = () => {
                     <img className='scale-50 h-12 sm:h-14 md:h-16 lg:h-20' src={Logo} alt="" />
                 </div>
                 <div>
-                    <h2 className='flex flex-col justify-center items-center font-Passions text-7xl sm:text-8xl md:text-8xl lg:text-8xl h-40'>¿Quien soy?</h2>
+                    <h2 className='flex flex-col justify-center items-center font-Passions text-7xl sm:text-8xl md:text-8xl lg:text-8xl h-40'>
+                        Who I am?</h2>
                 </div>
                 <div>
-                    <p className='flex flex-col justify-center items-center font-Shadows text-sm pr-16 sm:text-sm ml-24 md:text-lg lg:text-xl'>Mi Nombre es
-                        Paola Sanchez, soy una programadora Full Stack  con un conocimiento
-                        de Html, CSS, Javascript, Librelias las cuales son React, tailwind, entre otras tegnologias,
-                        Me considero una persona que esta abierta para aprender y enseñar mis conocimientos, soy
-                        una persona responsable, se trabajar en grupo, por otra parte se manejar la metodologia scrum,
-                        me caracterizo por aportar ideas, ser una persona autonoma, preguntar mucho  y buscar las mejores
-                        soluciones a un problema.
+                    <p className='flex flex-col justify-center items-center font-Shadows text-sm pr-16 sm:text-sm ml-24 md:text-lg lg:text-xl'>My name is
+                        Paola Sanchez, I am a Full Stack programmer with knowledge
+                        of Html, CSS, Javascript, Librelias which are React, tailwind, among other technologies,
+                        I consider myself a person who is open to learn and teach my knowledge, I am
+                        a responsible person, I know how to work in a group, on the other hand I know how to handle the scrum methodology,
+                        I characterize myself for contributing ideas, being an autonomous person, asking a lot and looking for the best
+                        solutions to a problem.
                         <img className='scale-50 sm:scale-50 h-44 md:scale-50 lg:scale-50 ' src='/src/assets/My project-1 (8).png' />
-                        </p>
+                    </p>
                 </div>
             </section>
         </>
