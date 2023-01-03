@@ -32,6 +32,9 @@ What things do you need to install the software and how to see it on the local d
 
 ``` npm install package.json ```
 
+```npm install -D tailwindcss postcss autoprefixer```
+```npx tailwindcss init -p```
+
 
 ### Facility 🔧
 
@@ -55,6 +58,7 @@ The tools that were used to create this project are:
 - [React] - Used for the development of the web page
 - [JavaScript] - used for the operation of the page.
 - [Node.js] - Execution environment for JavaScript and package manager.
+-[Tailwind CSS]-This helps us to give more style and more functions to the page
 
 ## Extra tools🔧
 
