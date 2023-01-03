@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
     <>
-    <div className="fixed left-8 mt-5  z-30 w-18 h-18 bg-fuchsia-400 rounded-full border-4 border-black"
+    <div className="fixed left-8 mt-5  z-30 w-18 h-18 bg-fuchsia-400 rounded-full border-4 border-black p-2"
     onClick={() => setMenu(!menu)}>
     <FiHome className="text-5xl" />
     </div>

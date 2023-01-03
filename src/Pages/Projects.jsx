@@ -1,7 +1,14 @@
 import React from 'react'
 import Navbar from '../Compenents/Navbar'
 import Logo from '../assets/Logos_PS (3).png'
-
+import Book from '../assets/bookPink.png'
+import tools from '../assets/tools.png'
+import notebook from '../assets/notebook.png'
+import chiken from '../assets/chiken.png'
+import cow from '../assets/cow.png'
+import raccon from '../assets/raccon.png'
+import { FaGithubAlt } from "react-icons/fa"
+import { BsFillPlayCircleFill } from "react-icons/bs"
 const Projects = () => {
   return (
     <>
@@ -10,8 +17,112 @@ const Projects = () => {
         <div className='flex flex-row justify-end items-end h-20 sm:h-24 md:h-28 lg:h-20'>
           <img className='scale-50 h-12 sm:h-14 md:h-16 lg:h-20' src={Logo} alt="" />
         </div>
+        <div>
+          <h1 className='flex flex-row justify-center items-center font-Passions text-8xl '>Projects</h1>
+        </div>
+        <br />
 
-       
+        <div className='grid grid-col justify-center items-center gap-16 gap-y-8  h-24 sm:grid-cols-2 scale-90   lg:grid-cols-3 '>
+
+          <div className=''>
+            <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
+              <h3 className='bg-white rounded-3xl text-center text-7xl'>Horimiya</h3>
+              <div className='grid grid-row justify-center items-center'>
+                <div className=' h-36 rounded-2xl flex flex-row '>
+                  <img className='scale-55' src={chiken} alt='' />
+                  <div>
+                    <p className='font-Shadows text-xl my-8'>Proyecto el cual se explica el inicio, intermedio y desenlace de la historia.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='grid grid-cols-2 items-start pl-20'>
+                <FaGithubAlt className='text-5xl items-center' />
+                <BsFillPlayCircleFill className='text-5xl' />
+              </div>
+            </div>
+          </div>
+
+          <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
+            <h3 className='bg-white rounded-3xl text-center text-7xl'>Dezzer</h3>
+            <div className='grid grid-row justify-center items-center'>
+              <div className=' h-36 rounded-2xl flex flex-row '>
+                <img className='scale-55' src={tools} alt='' />
+                <div>
+                  <p className='font-Shadows text-xl my-8'>Proyecto del cual nos muestra un poco mas de la musica y en los distintos generos.</p>
+                </div>
+              </div>
+            </div>
+            <div className='grid grid-cols-2 items-start pl-20'>
+              <FaGithubAlt className='text-5xl items-center' />
+              <BsFillPlayCircleFill className='text-5xl' />
+            </div>
+          </div>
+
+          <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
+            <h3 className='bg-white rounded-3xl text-center text-7xl'>Zshop</h3>
+            <div className='grid grid-row justify-center items-center'>
+              <div className=' h-36 rounded-2xl flex flex-row '>
+                <img className='scale-55' src={notebook} alt='' />
+                <div>
+                  <p className='font-Shadows text-xl my-8'>Proyecto nos trae diferentes noticias, de moda, cantantes entre otras cosas. </p>
+                </div>
+              </div>
+            </div>
+            <div className='grid grid-cols-2 items-start pl-20'>
+              <FaGithubAlt className='text-5xl items-center' />
+              <BsFillPlayCircleFill className='text-5xl' />
+            </div>
+          </div>
+
+          <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
+            <h3 className='bg-white rounded-3xl text-center text-7xl'>Caleculadora</h3>
+            <div className='grid grid-row justify-center items-center'>
+              <div className=' h-36 rounded-2xl flex flex-row '>
+                <img className='scale-55' src={Book} alt='' />
+                <div>
+                  <p className='font-Shadows text-xl my-8'>Proyecto de calculadora donde hacia las operaciones basicas </p>
+                </div>
+              </div>
+            </div>
+            <div className='grid grid-cols-2 items-start pl-20'>
+              <FaGithubAlt className='text-5xl items-center' />
+              <BsFillPlayCircleFill className='text-5xl' />
+            </div>
+          </div>
+
+          <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
+            <h3 className='bg-white rounded-3xl text-center text-7xl'>Tetris</h3>
+            <div className='grid grid-row justify-center items-center'>
+              <div className=' h-36 rounded-2xl flex flex-row '>
+                <img className='scale-55' src={cow} alt='' />
+                <div>
+                  <p className='font-Shadows text-xl my-4'>Proyecto clasico donde puedes jugar Tetris de forma facil y te puedes divertir, encontrar entretenimiento jugando.</p>
+                </div>
+              </div>
+            </div>
+            <div className='grid grid-cols-2 items-start pl-20'>
+              <FaGithubAlt className='text-5xl items-center' />
+              <BsFillPlayCircleFill className='text-5xl' />
+            </div>
+          </div>
+
+          <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
+            <h3 className='bg-white rounded-3xl text-center text-7xl'>Ruleta</h3>
+            <div className='grid grid-row justify-center items-center'>
+              <div className=' h-36 rounded-2xl flex flex-row '>
+                <img className='scale-55' src={raccon} alt='' />
+                <div>
+                  <p className='font-Shadows text-xl my-4'>Proyecto fue hecho conla finalidad de no tener una ruleta tradicional, el cual es una ruleta distinta</p>
+                </div>
+              </div>
+            </div>
+            <div className='grid grid-cols-2 items-start pl-20'>
+              <FaGithubAlt className='text-5xl items-center' />
+              <BsFillPlayCircleFill className='text-5xl' />
+            </div>
+          </div>
+
+        </div>
       </div>
     </>
   )
