@@ -14,9 +14,9 @@ const Abount = () => {
                     <img className='scale-50 h-12 sm:h-14 md:h-16 lg:h-20' src={Logo} alt="" />
                 </div>
                 <div>
-                    <h2 className='flex flex-col justify-center items-center font-Passions text-6xl sm:text-7xl md:text-7xl lg:text-8xl h-40'>¿Quien soy?</h2>
+                    <h2 className='flex flex-col justify-center items-center font-Passions text-7xl sm:text-8xl md:text-8xl lg:text-8xl h-40'>¿Quien soy?</h2>
                 </div>
-                <div className=''>
+                <div>
                     <p className='flex flex-col justify-center items-center font-Shadows text-sm pr-16 sm:text-sm ml-24 md:text-lg lg:text-xl'>Mi Nombre es
                         Paola Sanchez, soy una programadora Full Stack  con un conocimiento
                         de Html, CSS, Javascript, Librelias las cuales son React, tailwind, entre otras tegnologias,
