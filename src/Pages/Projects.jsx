@@ -31,7 +31,7 @@ const Projects = () => {
                 <div className=' h-36 rounded-2xl flex flex-row '>
                   <img className='scale-55' src={chiken} alt='' />
                   <div>
-                    <p className='font-Shadows text-xl my-8'>Proyecto el cual se explica el inicio, intermedio y desenlace de la historia.</p>
+                    <p className='font-Shadows text-xl my-8'>Project which explains the beginning, intermediate and outcome of the story.</p>
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const Projects = () => {
               <div className=' h-36 rounded-2xl flex flex-row '>
                 <img className='scale-55' src={tools} alt='' />
                 <div>
-                  <p className='font-Shadows text-xl my-8'>Proyecto del cual nos muestra un poco mas de la musica y en los distintos generos.</p>
+                  <p className='font-Shadows text-xl my-8'>Project which shows us a little more about music and in different genres.</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Projects = () => {
               <div className=' h-36 rounded-2xl flex flex-row '>
                 <img className='scale-55' src={notebook} alt='' />
                 <div>
-                  <p className='font-Shadows text-xl my-8'>Proyecto nos trae diferentes noticias, de moda, cantantes entre otras cosas. </p>
+                  <p className='font-Shadows text-xl my-8'>Project brings us different news, fashion, singers among other things. </p>
                 </div>
               </div>
             </div>
@@ -75,12 +75,12 @@ const Projects = () => {
           </div>
 
           <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
-            <h3 className='bg-white rounded-3xl text-center text-7xl'>Caleculadora</h3>
+            <h3 className='bg-white rounded-3xl text-center text-7xl'>Calculator</h3>
             <div className='grid grid-row justify-center items-center'>
               <div className=' h-36 rounded-2xl flex flex-row '>
                 <img className='scale-55' src={Book} alt='' />
                 <div>
-                  <p className='font-Shadows text-xl my-8'>Proyecto de calculadora donde hacia las operaciones basicas </p>
+                  <p className='font-Shadows text-xl my-8'>Calculator project where I did the basic operations. </p>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Projects = () => {
               <div className=' h-36 rounded-2xl flex flex-row '>
                 <img className='scale-55' src={cow} alt='' />
                 <div>
-                  <p className='font-Shadows text-xl my-4'>Proyecto clasico donde puedes jugar Tetris de forma facil y te puedes divertir, encontrar entretenimiento jugando.</p>
+                  <p className='font-Shadows text-xl my-4'>Classic project where you can play Tetris easily and you can have fun, find entertainment while playing.</p>
                 </div>
               </div>
             </div>
@@ -107,12 +107,12 @@ const Projects = () => {
           </div>
 
           <div className='bg-[#a799ff] p-4 rounded-3xl font-Passions text-5xl'>
-            <h3 className='bg-white rounded-3xl text-center text-7xl'>Ruleta</h3>
+            <h3 className='bg-white rounded-3xl text-center text-7xl'>Roulette</h3>
             <div className='grid grid-row justify-center items-center'>
               <div className=' h-36 rounded-2xl flex flex-row '>
                 <img className='scale-55' src={raccon} alt='' />
                 <div>
-                  <p className='font-Shadows text-xl my-4'>Proyecto fue hecho conla finalidad de no tener una ruleta tradicional, el cual es una ruleta distinta</p>
+                  <p className='font-Shadows text-xl my-4'>Project was made with the purpose of not having a traditional roulette, which is a different roulette.</p>
                 </div>
               </div>
             </div>
