@@ -36,8 +36,8 @@ const Projects = () => {
                 </div>
               </div>
               <div className='grid grid-cols-2 items-start pl-20'>
-                <FaGithubAlt className='text-5xl items-center' />
-                <BsFillPlayCircleFill className='text-5xl' />
+                <a href="https://github.com/27Paola/Horimiya.git" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><FaGithubAlt className='text-5xl items-center' /></a>
+                <a href="https://horimiya-sa3s.vercel.app/" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><BsFillPlayCircleFill className='text-5xl' /></a>
               </div>
             </div>
           </div>
@@ -53,8 +53,8 @@ const Projects = () => {
               </div>
             </div>
             <div className='grid grid-cols-2 items-start pl-20'>
-              <FaGithubAlt className='text-5xl items-center' />
-              <BsFillPlayCircleFill className='text-5xl' />
+              <a href="https://github.com/27Paola/deezer-paola-.git" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><FaGithubAlt className='text-5xl items-center' /></a>
+              <a href="https://deezer-paola.vercel.app/" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><BsFillPlayCircleFill className='text-5xl' /></a>
             </div>
           </div>
 
@@ -69,8 +69,8 @@ const Projects = () => {
               </div>
             </div>
             <div className='grid grid-cols-2 items-start pl-20'>
-              <FaGithubAlt className='text-5xl items-center' />
-              <BsFillPlayCircleFill className='text-5xl' />
+              <a href="https://github.com/27Paola/Proyecto-zShop.git" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><FaGithubAlt className='text-5xl items-center' /></a>
+              <a href="https://proyecto-zshop.vercel.app/" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><BsFillPlayCircleFill className='text-5xl' /></a>
             </div>
           </div>
 
@@ -85,8 +85,8 @@ const Projects = () => {
               </div>
             </div>
             <div className='grid grid-cols-2 items-start pl-20'>
-              <FaGithubAlt className='text-5xl items-center' />
-              <BsFillPlayCircleFill className='text-5xl' />
+              <a href="https://github.com/27Paola/Calculadora-.git" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><FaGithubAlt className='text-5xl items-center' /></a>
+              <a href="https://calculadora-six-rho.vercel.app/" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><BsFillPlayCircleFill className='text-5xl' /></a>
             </div>
           </div>
 
@@ -101,8 +101,8 @@ const Projects = () => {
               </div>
             </div>
             <div className='grid grid-cols-2 items-start pl-20'>
-              <FaGithubAlt className='text-5xl items-center' />
-              <BsFillPlayCircleFill className='text-5xl' />
+              <a href="https://github.com/27Paola/Tetris.git" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><FaGithubAlt className='text-5xl items-center' /></a>
+              <a href="https://tetris-psi-ten.vercel.app/" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><BsFillPlayCircleFill className='text-5xl' /></a>
             </div>
           </div>
 
@@ -117,8 +117,8 @@ const Projects = () => {
               </div>
             </div>
             <div className='grid grid-cols-2 items-start pl-20'>
-              <FaGithubAlt className='text-5xl items-center' />
-              <BsFillPlayCircleFill className='text-5xl' />
+              <a href="https://github.com/adrianapico/Sacrificios-de-coders.git" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><FaGithubAlt className='text-5xl items-center' /></a>
+              <a href="https://sacrificios-de-coders.vercel.app/" target={'_blank'} className='rounded-bl-lg w-1/2 h-12 flex justify-center items-center  text-black font-bold font-Sniglet'><BsFillPlayCircleFill className='text-5xl' /></a>
             </div>
           </div>
 
